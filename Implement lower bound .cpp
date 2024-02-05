@@ -1,5 +1,5 @@
 int lowerBound(vector<int> arr, int n, int x) {
-	// TC= O(log n)
+	// TC= O(log(base(2)) n)
 	int low = 0 , high = n-1;
 	int ans = n;
 	while(low <= high){
