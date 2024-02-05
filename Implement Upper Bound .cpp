@@ -1,5 +1,5 @@
 int upperBound(vector<int> &arr, int x, int n){
-	// TC = O(log (base(2)) N)
+	//  TC = O(log (base(2)) N)
 	
 	int low = 0 , high = n-1;
 	int ans = n;
